@@ -1,0 +1,30 @@
+{
+    "servers": {
+        "debug":1,
+        "server":[
+            {
+                "listen":9096,
+                "servername": [],
+                "whitelist": [],
+                "blacklist": [],
+                "ssl": "off",
+                "ssl_certfile": "",
+                "ssl_keyfile": ""
+            }
+        ]
+    },
+    "mysqls": [
+        {
+            "username": "root",
+            "password": "lwstar",
+            "host": "127.0.0.1:3306",
+            "database": "wallet",
+            "MaxOpenConns": 10,
+            "MaxOdleConns": 2
+        }
+    ],
+    "ws": {
+        "host": "127.0.0.1:8888",
+        "path": ""
+    }
+}
